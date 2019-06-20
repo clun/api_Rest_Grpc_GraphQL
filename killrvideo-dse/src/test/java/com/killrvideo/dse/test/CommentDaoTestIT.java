@@ -41,7 +41,7 @@ public class CommentDaoTestIT extends AbstractTest {
     public void generateComments() {
         // Given
         UUID randomUserId = UUID.randomUUID();
-        System.out.println("Your UserID " + randomUserId );
+        System.out.println("\n Your UserID is <" + randomUserId + "> don't loose it stupid !");
         QueryCommentByUser query = new QueryCommentByUser(randomUserId);
         Assertions.assertEquals(0, commentDao.findCommentsByUserId(query).getResults().size());
          

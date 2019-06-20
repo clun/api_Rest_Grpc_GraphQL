@@ -1,2 +1,4 @@
-# shiftDevConf2019
-Support code for talk SHIFT DEV CONFERENCE 2019
+# Designing API for Databases:
+
+REST, graphQL, gRPC which one should you pick ?
+
